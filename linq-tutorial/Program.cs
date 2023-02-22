@@ -5,7 +5,7 @@ var custCtrl = new CustomersController("localhost", "sqlexpress");
 
 var customers = custCtrl.GetAll();
 
-//linq method syntax
+//***************linq method syntax***************
 //cin sales lt 50, col lt 40, cle gt 50 or lt 20 || x.Sales > 50000
 //var customersByName = customers
 //                    .Where(x => (x.City == "Cincinnati" && x.Sales < 50000) 
@@ -18,8 +18,8 @@ var customers = custCtrl.GetAll();
 //    Console.WriteLine($"{cust.Id,2} | {cust.Name,-30} | {cust.City,-20} | {cust.State} | {cust.Sales,10:C} | {cust.Active}");
 
 
-//linq statement syntax
-    var customerByCityAndSales = from c in customers
+//***************linq query syntax***************
+var customerByCityAndSales = from c in customers
                              where (c.City == "Cincinnati" && c.Sales < 50000)
                                   || (c.City == "Cleveland" && (c.Sales < 20000 || c.Sales > 50000))
                                   || (c.City == "Columbus" && c.Sales < 40000)
