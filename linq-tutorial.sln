@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq-tutorial", "linq-tutorial\linq-tutorial.csproj", "{2228C988-720C-4C1B-BF47-62F97D0D0CD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq-tutorial", "linq-tutorial\linq-tutorial.csproj", "{2228C988-720C-4C1B-BF47-62F97D0D0CD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesLibrary", "..\SalesLibrarySolution\SalesLibrary\SalesLibrary.csproj", "{62A3E3A0-B68E-4F08-9E6F-0DA9BA8C18BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2228C988-720C-4C1B-BF47-62F97D0D0CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2228C988-720C-4C1B-BF47-62F97D0D0CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2228C988-720C-4C1B-BF47-62F97D0D0CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A3E3A0-B68E-4F08-9E6F-0DA9BA8C18BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A3E3A0-B68E-4F08-9E6F-0DA9BA8C18BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A3E3A0-B68E-4F08-9E6F-0DA9BA8C18BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A3E3A0-B68E-4F08-9E6F-0DA9BA8C18BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
